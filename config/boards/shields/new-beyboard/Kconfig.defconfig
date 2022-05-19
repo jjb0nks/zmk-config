@@ -1,0 +1,16 @@
+if SHIELD_NEW_BEYBOARD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "New Beyboard"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_NEW_BEYBOARD_LEFT || SHIELD_NEW_BEYBOARD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
