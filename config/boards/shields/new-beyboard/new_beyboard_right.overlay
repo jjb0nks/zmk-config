@@ -1,4 +1,4 @@
-// new_beyboard_left.overlay
+// new_beyboard_right.overlay
 
 #include "new_beyboard.dtsi" // Notice that the main dtsi files are included in the overlay.
 
