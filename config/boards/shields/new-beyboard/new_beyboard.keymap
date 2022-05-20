@@ -12,7 +12,7 @@
 // |PLAY/PAUSE|   TAB   |    A    |    R    |    S    |    T    |    D    |                      |    H    |    N    |    E    |    I    |    O    |    UP   |  PGDN   |
 // |  NEXT    |  CTRL   |    Z    |    X    |    C    |    V    |    B    |                      |    K    |    M    |    ,    |    .    |  LEFT   |   DOWN  |  RIGHT  |
 //                                          |   GUI   |  LOWER  |  SHIFT  |   DEL   |  |   BSPC  |  SPACE  |  RAISE  |  R ALT  |         |                                
-            bindings = <                                                                                                                                     
+            bindings = <
     &kp C_MUTE &kp ESC   &kp Q     &kp W     &kp F     &kp P     &kp G                            &kp J     &kp L     &kp U     &kp Y     &kp P    &kp BSLH   &kp PG_UP
     &kp C_PP   &kp TAB   &kp A     &kp R     &kp S     &kp T     &kp D                            &kp H     &kp N     &kp E     &kp I     &kp O    &kp UP     &kp PG_DN
     &kp C_NEXT &kp CTRL  &kp Z     &kp X     &kp C     &kp V     &kp B                            &kp K     &kp M     &kp COMMA &kp DOT   &kp LEFT &kp DOWN   &kp RIGHT
