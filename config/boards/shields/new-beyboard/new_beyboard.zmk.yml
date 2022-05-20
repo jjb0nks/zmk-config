@@ -1,0 +1,15 @@
+file_format: "1"
+id: new-beyboard
+name: New Beyboard
+type: shield
+url: https://github.com/jjb0nks/cool-new-keyborararsdrsa
+requires:
+  - pro_micro
+exposes:
+  - encoder
+features:
+  - keys
+  - encoder
+siblings:
+  - new_beyboard_left
+  - new_beyboard_right
