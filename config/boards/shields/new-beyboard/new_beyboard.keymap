@@ -3,10 +3,10 @@
 
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
+      keymap {
+              compatible = "zmk,keymap";
 
-        default_layer {
+              default_layer {
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // |  MUTE    |   ESC   |    Q    |    W    |    F    |    P    |    G    |                      |    J    |    L    |    U    |    Y    |    ;    |    \    |  PGUP   |
 // |PLAY/PAUSE|   TAB   |    A    |    R    |    S    |    T    |    D    |                      |    H    |    N    |    E    |    I    |    O    |    UP   |  PGDN   |
@@ -21,15 +21,16 @@
             
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
        
-     };
+              };
 
-        lower_layer {
+
+              lower_layer {
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // |  WINTAB  |  FN1    |  FN2    |   FN3   |   FN4   |   FN5   |   FN6   |                      |   FN7   |   FN8   |   FN9   |  FN10   |  FN11   |  FN12   |  HOME   |
 // |          |  ENTER  |  LEFT   |   UP    |  DOWN   |   RIGHT |         |                      |         |         |         |         |         |         |   END   |
 // |   PREV   |         |         |         |         |         |         |                      |         |         |         |         |         |         |         |
 //                                          |         |         |         |         |  |         |         |         |         |         |                                 
-            bindings = <                                                                                                                                       
+            bindings = <
     &kp LG(TAB) &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6                           &kp F7    &kp F8    &kp F9    &kp F10   &kp F11  &kp F12    &kp HOME
     &trans      &kp ENTER &kp LEFT  &kp UP    &kp DOWN  &kp RIGHT &trans                           &trans    &trans    &trans    &trans    &trans   &trans     &kp END
     &kp C_PREV  &trans    &trans    &trans    &trans    &trans    &trans                           &trans    &trans    &trans    &trans    &trans   &trans     &trans
@@ -38,15 +39,15 @@
             
             sensor-bindings = <&inc_dec_kp LA(TAB) LA(LS(TAB))>;
        
-     };
+              };
 
-        raise_layer {
+              raise_layer {
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // |  MINBRI  |    `    |         |         |         |         |         |                      |         |         |    -    |    +    |    [    |    ]    |SCREENSHOT|
 // |          |         |    1    |    2    |    3    |    4    |    5    |                      |    6    |    7    |    8    |    9    |    0    |         |          |
 // |   PREV   |         |         |         |         |         |         |                      |         |         |    /    |    '    |         |         |          |
 //                                          |         |         |         |         |  |         |         |         |         |         |                                  
-            bindings = <                                                                                                                                       
+            bindings = <
     &kp C_BRI_MIN &kp GRAVE &trans    &trans    &trans    &trans    &trans                           &trans    &trans    &kp MINUS &kp EQUAL &kp LBKT &kp RBKT   &kp LG(PSCRN)
     &trans        &trans    &kp N1    &kp N2    &kp N3    &kp N4    &kp N5                           &kp N6    &kp N7    &kp N8    &kp N9    &kp N0   &trans     &trans
     &kp C_PREV    &trans    &trans    &trans    &trans    &trans    &trans                           &trans    &trans    &kp SLASH &kp SQT   &trans   &trans     &trans
@@ -55,6 +56,6 @@
             
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
        
-     };
-   };
+              };
+      };
 };
