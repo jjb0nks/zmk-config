@@ -17,13 +17,3 @@ include:
     shield: new_beyboard_left
   - board: nice_nano_v2
     shield: new_beyboard_right
-include:
-  - board: nice_nano_v2
-    shield: new_beyboard_left
-  - board: nice_nano_v2
-    shield: new_beyboard_right
-include:
-  - board: nice_nano_v2
-    shield: new_beyboard_left
-  - board: nice_nano_v2
-    shield: new_beyboard_right
