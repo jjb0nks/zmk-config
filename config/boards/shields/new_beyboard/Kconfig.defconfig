@@ -1,4 +1,4 @@
-f SHIELD_NEW_BEYBOARD_LEFT
+if SHIELD_NEW_BEYBOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "New Beyboard"
